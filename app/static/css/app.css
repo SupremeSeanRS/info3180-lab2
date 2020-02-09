@@ -1,3 +1,86 @@
 body {
     padding-top: 5rem;
 }
+
+.fullprofile {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.profileheader {
+    background-color: #51e879;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.profilebody {
+    background-color: none;
+    margin-top: -8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#profile-text {
+    margin-top: 10px;
+}
+
+h6 {
+    color: #f7f7f7;
+}
+
+#joined {
+    padding-bottom: 6px;
+}
+#portrait-pfp {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: -28px;
+}
+
+#profile-text{
+    color: white;
+}
+
+#bio {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    
+}
+
+#biotext {
+    color: gray;
+}
+
+#followagecount {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#followtext {
+    margin-top: -20px;
+    font-size: 16px;
+    color: gray;
+}
+
+#count {
+    font-size: 20px;
+}
+
+#btnFollow {
+    background-color: #51e879;
+    border-radius: 10px;
+    width: 15%;
+    color: white;
+}

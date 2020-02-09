@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="fullprofile">
+    <div class="profileheader">
+        <br>
+        <div id="portrait-pfp">
+            <img src="{{ url_for('static', filename='pfp.jpg') }}"/>
+        </div>
+    
+        <div id="profile-text">
+            <h2>Sean Aung</h2>
+            <h6>@saung</h6>
+            <h6>Montego Bay, Jamaica</h6>
+            <h6 id="joined">{{ joineddate }}</h6>
+        </div>
+    </div>
+    
+    <div class="profilebody">
+        <div id="bio">
+            <h6 id="biotext">I am smart and talented young man who loves website design and development.
+                Contact me if you'd like to work together on a new project. You can contact me via my socials at Twitter @SeanSimplify and 
+                Instagram @seanaung.
+            </h6>
+        </div>
+        
+        <br>
+
+        <div class="followage">
+            <div id="followagecount">
+                <p id="count"><strong>5</strong> &emsp;&emsp;&emsp; <strong>69</strong> &emsp;&emsp;&emsp; <strong>420</strong></p>
+                <p id="followtext">Posts &nbsp;&nbsp;&emsp; Following &nbsp;&nbsp;&emsp; Followers</h6>
+            </div>
+
+            <button type="button" id="btnFollow"><strong>Follow</strong></button>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
